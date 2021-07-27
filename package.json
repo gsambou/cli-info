@@ -3,7 +3,7 @@
     "version": "1.1.0",
     "description": "Cross platform CLI info with colors & colored symbols for success, info, warning. Works on macOs, Linux, and Windows",
     "license": "MIT",
-    "repository": "gsambou/cli-alerts",
+    "repository": "gsambou/cli-info",
     "author": {
         "name": "gsambou",
         "email": "dev@gsambou.com",

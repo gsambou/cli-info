@@ -1,4 +1,5 @@
 # cli-alerts
+![cli-info screenshot](./.github/cli-info.png)
 
 ## Install
 
@@ -11,7 +12,7 @@ npm install cli-info
 ## Usage
 
 ```js
-const alert = require('cli-status');
+const alert = require('cli-info');
 
 // Provide the type, msg, and name options.
 alert({type: `success`, msg: `Everything finished!`});
