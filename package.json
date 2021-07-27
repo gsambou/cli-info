@@ -1,0 +1,31 @@
+{
+    "name": "cli-alerts",
+    "version": "0.0.1",
+    "description": "Cross platform CLI Alerts with colors & colored symbols for success, info, warning. Works on macOs, Linux, and Windows",
+    "license": "MIT",
+    "repository": "gsambou/cli-alerts",
+    "author": {
+        "name": "gsambou",
+        "email": "dev@gsambou.com",
+        "url": "https://gsambou.com"
+    },
+    "main": "index.js",
+    "files": [
+        "index.js"
+    ],
+    "keywords": [
+        "cli-alerts",
+        "gsambou"
+    ],
+    "devDependencies": {
+        "prettier": "^2.3.2"
+    },
+    "dependencies": {
+        "chalk": "^4.1.1",
+        "log-symbols": "^4.0.0"
+    },
+    "scripts": {
+        "test": "node test.js",
+        "format": "prettier --write \"./**/*.{js,json}\""
+    }
+}
