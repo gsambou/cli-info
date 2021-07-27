@@ -1,5 +1,5 @@
 /**
- * CLI Alerts.
+ * CLI info.
  *
  * Cross platform CLI Alerts with colors.
  * Works on macOS, Linux, and Windows.

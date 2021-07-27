@@ -1,7 +1,7 @@
 {
-    "name": "cli-status",
-    "version": "3.0.0",
-    "description": "Cross platform CLI Alerts with colors & colored symbols for success, info, warning. Works on macOs, Linux, and Windows",
+    "name": "cli-info",
+    "version": "1.0.0",
+    "description": "Cross platform CLI info with colors & colored symbols for success, info, warning. Works on macOs, Linux, and Windows",
     "license": "MIT",
     "repository": "gsambou/cli-alerts",
     "author": {
@@ -14,7 +14,7 @@
         "index.js"
     ],
     "keywords": [
-        "cli-status",
+        "cli-info",
         "gsambou"
     ],
     "devDependencies": {

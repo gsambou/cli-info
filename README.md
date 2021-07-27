@@ -3,7 +3,7 @@
 ## Install
 
 ```sh
-npm install cli-status
+npm install cli-info
 ```
 
 <br>
