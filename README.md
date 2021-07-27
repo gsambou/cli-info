@@ -3,7 +3,7 @@
 ## Install
 
 ```sh
-npm install cli-alerts
+npm install cli-status
 ```
 
 <br>
@@ -11,7 +11,7 @@ npm install cli-alerts
 ## Usage
 
 ```js
-const alert = require('cli-alerts');
+const alert = require('cli-status');
 
 // Provide the type, msg, and name options.
 alert({type: `success`, msg: `Everything finished!`});
