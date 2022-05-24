@@ -1,4 +1,5 @@
 # cli-alerts
+
 ![cli-info screenshot](./.github/cli-info.png)
 
 ## Install
@@ -12,21 +13,25 @@ npm install cli-info
 ## Usage
 
 ```js
-const alert = require('cli-info');
+import alert from 'cli-info';
 
 // Provide the type, msg, and name options.
-alert({type: `success`, msg: `Everything finished!`});
+alert(`success`, `Everything finished!`);
 // Prints: ✔ SUCCESS Everything finished!
 
-alert({type: `success`, msg: `Everything finished!`, name: `DONE`});
+alert(`success`, `Everything finished!`, `DONE`);
 // Prints: ✔ DONE Everything finished!
 
-alert({type: `warning`, msg: `You didn't add something!`});
+alert(`warning`, `You didn't add something!`);
 // Prints: ⚠ WARNING You didn't add something!
 
-alert({type: `info`, msg: `Awais is awesome!`});
-// Prints: ℹ INFO Awais is awesome!
+alert(`info`, msg: `gsambou is awesome!`);
+// Prints: ℹ INFO gsambou is awesome!
 
-alert({type: `error`, msg: `Something went wrong!`});
+alert(`error`, msg: `Something went wrong!`);
 // Prints: ✖ ERROR Something went wrong!
 ```
+
+### Note
+
+Only: `info`, `success`, `warning`, `error` colorations are available
